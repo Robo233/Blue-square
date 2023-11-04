@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "fontawesome/css/fontawesome.css";
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+@font-face {
+  font-family: 'My Font';
+  src: url('Rowdies-Regular.ttf') format('truetype');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html, body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: 'My Font', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:#B3C100
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#start-button-image{
+  width: 0;
+	height: 0;
+	border-top: 75px solid transparent;
+	border-left: 125px solid #555;
+	border-bottom: 75px solid transparent;
 }
 
-.App-link {
-  color: #61dafb;
+table {
+	margin: 0 auto;
+	border-collapse: collapse;
+	background: black;
+}
+td {
+    width: 20px; height: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd) {
+	background: white;
 }
+
+  
+
