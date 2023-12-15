@@ -1,3 +1,12 @@
+A browser game, where the player has to avoid obstacles.
+
+![](Screenshots/1.jpg)
+![](Screenshots/2.jpg)
+![](Screenshots/3.jpg)
+![](Screenshots/4.jpg)
+![](Screenshots/5.jpg)
+![](Screenshots/6.jpg)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
